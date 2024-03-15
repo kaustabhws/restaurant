@@ -26,6 +26,7 @@ const HeroPage = () => {
             width={100}
             className="min-[864px]:w-96 min-[864px]:-left-32 min-[864px]:top-1/4 w-52 absolute -left-14 an‌​imate-spin-slow "
             unoptimized
+            priority
           />
           <Image
             src="/hero3.png"
@@ -34,6 +35,7 @@ const HeroPage = () => {
             width={100}
             className="min-[864px]:w-96 min-[864px]:-right-32 min-[864px]:top-1/4 w-52 absolute -right-14 an‌​imate-spin-rev "
             unoptimized
+            priority
           />
         </div>
         <div className="absolute bottom-14 flex items-center justify-center gap-8 mx-auto w-full max-[406px]:hidden">
@@ -44,6 +46,7 @@ const HeroPage = () => {
             width={100}
             className="min-[864px]:w-60 w-52 max-[500px]:w-40"
             unoptimized
+            priority
           />
           <Image
             src="/hero2.png"
@@ -52,6 +55,7 @@ const HeroPage = () => {
             width={100}
             className="min-[864px]:w-60 w-52 max-[500px]:w-40"
             unoptimized
+            priority
           />
         </div>
       </div>
