@@ -16,7 +16,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ open, setOpen }) => {
         }`}
       ></div>
       <div
-        className={`fixed top-0 w-full h-full bg-[#f5eedc] z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 w-full h-full bg-[#f5eedc] z-50 transform transition-transform duration-500 ${
           open ? "translate-y-0" : "-translate-y-full"
         }`}
       >
@@ -24,9 +24,11 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ open, setOpen }) => {
           onClick={() => setOpen(false)}
           className="absolute top-4 right-4"
         >
-          <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden">
-            <div className="bg-black h-[2px] w-7 transform transition-all duration-300 origin-left rotate-[42deg]"></div>
-            <div className="bg-black h-[2px] w-7 transform transition-all duration-300 origin-left -rotate-[42deg]"></div>
+          <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all bg-[#d9d1b6]">
+            <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden">
+              <div className="bg-black h-[2px] w-7 transform transition-all duration-300 origin-left rotate-[42deg]"></div>
+              <div className="bg-black h-[2px] w-7 transform transition-all duration-300 origin-left -rotate-[42deg]"></div>
+            </div>
           </div>
         </button>
         <div className="flex flex-col items-center justify-center h-full space-y-10">

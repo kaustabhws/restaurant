@@ -35,3 +35,15 @@
 .an‌​imate-spin-rev {
     animation: spin-slow-rev infinite 20s linear;
 }
+
+.rFrJzc {
+    background-size: 14px 14px;
+    background-image: url(//maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_14.png);
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+}
+
+.UpDOYb {
+    background-image: url(//maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_half_14.png);
+}

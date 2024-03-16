@@ -38,7 +38,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-      <div className="absolute top-4 left-2 min-[650px]:hidden">
+      <div className="absolute top-4 right-2 min-[650px]:hidden">
         <button className="relative group" onClick={() => setOpen(true)}>
           <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all bg-[#d9d1b6]">
             <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden">
